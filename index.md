@@ -29,10 +29,13 @@
 <p>The first time you run the app, it will create some default users and data. Here is the output:</p>
 
 <div class="highlighter-rouge">
+
     meteor npm run start
     > meteor-application-template-react@ start /Users/philipjohnson/github/philipmjohnson/digits/app
     > meteor --no-release-check --settings ../config/settings.development.json
-    [[[[[ ~/github/philipmjohnson/digits/app ]]]]]             
+                               
+    [[[[[ ~/github/philipmjohnson/digits/app ]]]]]
+                               
     => Started proxy.                             
     => Started MongoDB.                           
     I20180305-18:06:02.764(-10)? Creating the default user(s)
@@ -43,6 +46,7 @@
     I20180305-18:06:02.804(-10)?   Adding: Casanova (john@foo.com)
     I20180305-18:06:02.804(-10)?   Adding: Binsted (admin@foo.com)
     => Started your app.
+                               
     => App running at: http://localhost:3000/
     W20180305-18:06:02.805(-10)? (STDERR) Note: you are using a pure-JavaScript implementation of bcrypt.
     W20180305-18:06:02.805(-10)? (STDERR) While this implementation will work correctly, it is known to be
@@ -57,6 +61,7 @@
 <b>Note regarding bcrypt warning.</b> You will also get the following message when you run this application:
                                      
 <div class="highlighter-rouge">
+
     Note: you are using a pure-JavaScript implementation of bcrypt.
     While this implementation will work correctly, it is known to be
     approximately three times slower than the native implementation.
