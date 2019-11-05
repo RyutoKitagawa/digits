@@ -105,7 +105,7 @@
 <b>Sign in</b>
 <p>Click on the Login link, then click on the Signin link to bring up the Sign In page which allows you to login:</p>
 
-<img src="doc/sign_in.png" alt="Sign In Page">
+<img src="doc/login_page.png" alt="Sign In Page">
 <p/>
 
 <b>User home page</b>
