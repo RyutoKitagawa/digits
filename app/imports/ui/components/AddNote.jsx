@@ -1,5 +1,5 @@
 import React from 'react';
-import { Notes, NotesSchema } from '/imports/api/note/Notes'
+import { Notes, NotesSchema } from '/imports/api/note/Notes';
 import { Segment } from 'semantic-ui-react';
 import AutoForm from 'uniforms-semantic/AutoForm';
 import TextField from 'uniforms-semantic/TextField';
